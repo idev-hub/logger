@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "inlineSourceMap": true,
+        "declaration": true,
+        "sourceRoot": "lib",
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "./src"
+    ],
+    "exclude": [
+        "./dist",
+        "./test",
+        "./node_modules"
+    ]
+}
