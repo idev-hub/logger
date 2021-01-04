@@ -1,14 +1,36 @@
 {
-    "name": "@idev.hub/logger",
-    "description": "Fast, unopinionated, minimalist web framework",
-    "version": "0.1.0",
-    "main": "main.js",
-    "author": {
-        "name": "idev.hub",
-        "email": "idev.hub@ya.ru"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": "14.15.x"
-    }
+  "name": "@idev.hub/logger",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": [
+    "./lib/Logger.js"
+  ],
+  "main": "./lib/Logger.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=13.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idev-hub/logger.git"
+  },
+  "author": {
+    "name": "idev.hub",
+    "email": "idev.hub@ya.ru"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idev-hub/logger/issues"
+  },
+  "homepage": "https://github.com/idev-hub/logger#readme",
+  "dependencies": {
+    "@sentry/node": "^5.29.2",
+    "pino": "^6.9.0",
+    "pino-pretty": "^4.3.0",
+    "stream": "^0.0.2",
+    "util": "^0.12.3"
+  }
 }
