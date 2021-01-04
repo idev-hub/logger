@@ -1,0 +1,14 @@
+{
+    "name": "@idev.hub/logger",
+    "description": "Fast, unopinionated, minimalist web framework",
+    "version": "0.1.0",
+    "main": "main.js",
+    "author": {
+        "name": "idev.hub",
+        "email": "idev.hub@ya.ru"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "14.15.x"
+    }
+}
